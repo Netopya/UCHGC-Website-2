@@ -4,14 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ukrainian Catholic Holy Ghost Church</title>
-    <meta http-equiv="refresh" content="0; url={{ '/en/' | url }}">
-    <link rel="canonical" href="{{ '/en/' | url }}">
+    <link rel="canonical" href="{{ '/' | url }}">
 </head>
 <body>
-    <p>Redirecting to <a href="{{ '/en/' | url }}">English version</a>...</p>
+    <p>Redirecting to your preferred language...</p>
+    <p>Manual links: <a href="{{ '/en/' | url }}">English</a> | <a href="{{ '/fr/' | url }}">Français</a> | <a href="{{ '/uk/' | url }}">Українська</a></p>
     <script>
-        // Immediate redirect with path prefix support
-        window.location.replace('{{ '/en/' | url }}');
+        // Smart language detection and redirect
+        function getPreferredLanguage() {
+            // Get user's language preferences
+            const userLanguages = navigator.languages || [navigator.language || navigator.userLanguage || 'en'];
+            
+            // Available languages on our site
+            const availableLanguages = ['en', 'fr', 'uk'];
+            
+            // Check each user preference against available languages
+            for (const userLang of userLanguages) {
+                const langCode = userLang.toLowerCase().split('-')[0]; // Extract main language code
+                
+                // Direct match
+                if (availableLanguages.includes(langCode)) {
+                    return langCode;
+                }
+                
+                // Special cases for regional variants
+                if (langCode === 'fr' || userLang.toLowerCase().includes('fr-ca')) {
+                    return 'fr';
+                }
+                if (langCode === 'uk' || langCode === 'ua') { // Ukrainian can be 'uk' or 'ua'
+                    return 'uk';
+                }
+            }
+            
+            // Default to English if no match found
+            return 'en';
+        }
+        
+        // Get preferred language and redirect
+        const preferredLang = getPreferredLanguage();
+        const redirectUrl = '{{ '/' | url }}' + preferredLang + '/';
+        
+        // Immediate redirect with language detection
+        window.location.replace(redirectUrl);
     </script>
 </body>
 </html> 
