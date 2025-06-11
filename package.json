@@ -1,0 +1,24 @@
+{
+  "name": "uchgc-website-2",
+  "version": "1.0.0",
+  "description": "Ukrainian Catholic Holy Ghost Church website built with Eleventy",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "debug": "DEBUG=Eleventy* eleventy",
+    "clean": "rm -rf _site"
+  },
+  "keywords": [
+    "eleventy",
+    "static-site",
+    "church",
+    "ukrainian-catholic",
+    "multilingual"
+  ],
+  "author": "Ukrainian Catholic Holy Ghost Church",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

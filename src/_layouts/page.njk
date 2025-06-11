@@ -1,0 +1,20 @@
+---
+layout: base.njk
+---
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-lg-10 mx-auto">
+            <div class="mb-4">
+                <h1 class="display-5">{{ title }}</h1>
+                {% if description %}
+                <p class="lead text-muted">{{ description }}</p>
+                {% endif %}
+            </div>
+            
+            <div class="content">
+                {{ content | safe }}
+            </div>
+        </div>
+    </div>
+</div> 

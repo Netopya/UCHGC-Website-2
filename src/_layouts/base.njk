@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if title %}{{ title }} - {% endif %}{{ translations[lang].site.title }}</title>
+    <meta name="description" content="{{ description or translations[lang].site.description }}">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="/css/style.css" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="/{{ lang }}/">
+                <i class="bi bi-church me-2"></i>
+                {{ translations[lang].site.title }}
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link{% if page.url == '/' + lang + '/' %} active{% endif %}" href="/{{ lang }}/">
+                            {{ translations[lang].nav.home }}
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link{% if page.url.includes('/' + lang + '/about') %} active{% endif %}" href="/{{ lang }}/about/">
+                            {{ translations[lang].nav.about }}
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link{% if page.url.includes('/' + lang + '/photos') %} active{% endif %}" href="/{{ lang }}/photos/">
+                            {{ translations[lang].nav.photos }}
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link{% if page.url.includes('/' + lang + '/location') %} active{% endif %}" href="/{{ lang }}/location/">
+                            {{ translations[lang].nav.location }}
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link{% if page.url.includes('/' + lang + '/contact') %} active{% endif %}" href="/{{ lang }}/contact/">
+                            {{ translations[lang].nav.contact }}
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link{% if page.url.includes('/' + lang + '/links') %} active{% endif %}" href="/{{ lang }}/links/">
+                            {{ translations[lang].nav.links }}
+                        </a>
+                    </li>
+                </ul>
+                
+                <!-- Language Switcher -->
+                <div class="dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                        <i class="bi bi-globe me-1"></i>
+                        {{ translations[lang].languages[lang] }}
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{{ page.url | langUrl('en', lang) }}">{{ translations[lang].languages.en }}</a></li>
+                        <li><a class="dropdown-item" href="{{ page.url | langUrl('fr', lang) }}">{{ translations[lang].languages.fr }}</a></li>
+                        <li><a class="dropdown-item" href="{{ page.url | langUrl('uk', lang) }}">{{ translations[lang].languages.uk }}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        {{ content | safe }}
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>{{ translations[lang].site.title }}</h5>
+                    <p class="mb-0">
+                        <i class="bi bi-geo-alt me-1"></i>
+                        {{ translations[lang].footer.address }}
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">{{ translations[lang].footer.copyright }}</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="/js/main.js"></script>
+</body>
+</html> 

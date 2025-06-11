@@ -1,0 +1,152 @@
+/* Custom styles for Ukrainian Catholic Holy Ghost Church */
+
+:root {
+  --church-blue: #1e3a8a;
+  --church-gold: #f59e0b;
+  --ukrainian-blue: #0057b7;
+  --ukrainian-yellow: #ffd700;
+}
+
+/* Navigation */
+.navbar {
+  background: linear-gradient(135deg, var(--church-blue), var(--ukrainian-blue)) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Hero carousel */
+#heroCarousel {
+  max-height: 70vh;
+  overflow: hidden;
+}
+
+#heroCarousel .carousel-item img {
+  height: 70vh;
+  object-fit: cover;
+  width: 100%;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}
+
+.carousel-caption h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  font-weight: 600;
+}
+
+/* Cards and sections */
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.bg-primary {
+  background: linear-gradient(135deg, var(--church-blue), var(--ukrainian-blue)) !important;
+}
+
+.text-warning,
+.btn-warning {
+  color: var(--church-gold) !important;
+  border-color: var(--church-gold) !important;
+}
+
+.btn-warning {
+  background-color: var(--church-gold);
+  font-weight: 500;
+}
+
+.btn-warning:hover {
+  background-color: #d97706;
+  border-color: #d97706;
+  transform: translateY(-1px);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--church-blue);
+  font-weight: 600;
+}
+
+.display-4, .display-5 {
+  font-weight: 700;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(135deg, #1f2937, var(--church-blue)) !important;
+}
+
+/* Language switcher */
+.dropdown-toggle::after {
+  margin-left: 0.5em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+  
+  #heroCarousel .carousel-item img {
+    height: 50vh;
+  }
+  
+  .carousel-caption {
+    padding: 1rem;
+  }
+  
+  .carousel-caption h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* Special styling for Ukrainian text */
+.lang-uk h1,
+.lang-uk h2,
+.lang-uk h3 {
+  font-family: 'Segoe UI', 'Ubuntu', 'Roboto', sans-serif;
+}
+
+/* Print styles */
+@media print {
+  .navbar,
+  footer,
+  #heroCarousel {
+    display: none !important;
+  }
+  
+  .container {
+    width: 100% !important;
+    max-width: none !important;
+  }
+} 
