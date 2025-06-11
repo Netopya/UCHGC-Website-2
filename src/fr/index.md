@@ -2,7 +2,7 @@
 layout: home.njk
 lang: fr
 title: Accueil
-indexTitle: "Bienvenue à l'église catholique ukrainienne Saint-Esprit"
+indexTitle: "Église catholique ukrainienne Saint-Esprit à Montréal"
 scheduleContent: |
   <p class="lead">Rejoignez-nous pour la Divine Liturgie tous les dimanches à 10h00</p>
   <p>Services spéciaux pendant les jours saints et les célébrations de fêtes</p>

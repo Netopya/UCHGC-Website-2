@@ -2,7 +2,7 @@
 layout: home.njk
 lang: en
 title: Home
-indexTitle: "Welcome to Ukrainian Catholic Holy Ghost Church"
+indexTitle: "Ukrainian Catholic Holy Ghost Church in Montreal"
 scheduleContent: |
   <p class="lead">Join us for Divine Liturgy every Sunday at 10:00 AM</p>
   <p>Special services during holy days and feast celebrations</p>
