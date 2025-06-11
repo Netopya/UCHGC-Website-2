@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ukrainian Catholic Holy Ghost Church</title>
-    <meta http-equiv="refresh" content="0; url=/en/">
-    <link rel="canonical" href="/en/">
+    <meta http-equiv="refresh" content="0; url={{ '/en/' | url }}">
+    <link rel="canonical" href="{{ '/en/' | url }}">
 </head>
 <body>
-    <p>Redirecting to <a href="/en/">English version</a>...</p>
+    <p>Redirecting to <a href="{{ '/en/' | url }}">English version</a>...</p>
     <script>
-        // Immediate redirect
-        window.location.replace('/en/');
+        // Immediate redirect with path prefix support
+        window.location.replace('{{ '/en/' | url }}');
     </script>
 </body>
 </html> 
