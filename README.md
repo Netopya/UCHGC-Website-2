@@ -111,18 +111,20 @@ The built site in `_site/` can be deployed to any static hosting service:
 
 ## Future Enhancements
 
-### Planned Features
+### Current Status
+- ✅ **Home page** - Fully migrated with hero carousel, community initiatives, and donation campaigns
+- ✅ **About page** - Complete parish history migration from 1912 founding to present (all languages)
+- ✅ **Contact page** - Priest information, contact details, service schedule for all languages
+- ✅ **Location page** - Interactive maps, addresses, transportation info for all languages
+- ✅ **Links page** - Religious organizations, community resources, and donation links for all languages
+- ✅ **Photos/Gallery** - Curated YouTube videos with Facebook gallery reference
+
+### Planned Future Enhancements
 - Contact forms (via external service)
 - Event calendar
-- Photo gallery restoration
 - Newsletter signup
-- Social media integration
-
-### Content Areas to Expand
-- About page with full parish history
-- Location page with interactive map
-- Links page with community resources
-- Photo galleries by category
+- Enhanced photo gallery with more categories
+- Live streaming integration
 
 ## Migration Notes
 
