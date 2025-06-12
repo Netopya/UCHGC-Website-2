@@ -92,7 +92,7 @@ permalink: /fr/location/
                     <div class="col-md-6">
                         <h5>Transport en commun</h5>
                         <ul>
-                            <li><strong>Métro:</strong> Charlevoix (Ligne orange)</li>
+                            <li><strong>Métro:</strong> Charlevoix (Ligne verte)</li>
                             <li><strong>Autobus:</strong> Plusieurs lignes desservent la région</li>
                             <li>Distance à pied depuis le métro: ~10 minutes</li>
                         </ul>
@@ -100,9 +100,9 @@ permalink: /fr/location/
                     <div class="col-md-6">
                         <h5>Stationnement</h5>
                         <ul>
-                            <li>Stationnement de rue limité disponible</li>
+                            <li>Petit stationnement réservé aux visiteurs de l'église</li>
+                            <li>Stationnement de rue limité également disponible</li>
                             <li>Veuillez respecter les règles de stationnement du quartier</li>
-                            <li>Transport en commun recommandé pour les services dominicaux</li>
                         </ul>
                     </div>
                 </div>

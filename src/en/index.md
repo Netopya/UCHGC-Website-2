@@ -3,12 +3,9 @@ layout: home.njk
 lang: en
 title: Home
 indexTitle: "Ukrainian Catholic Holy Ghost Church in Montreal"
-scheduleContent: |
-  <p class="lead">Join us for Divine Liturgy every Sunday at 10:00 AM</p>
-  <p>Special services during holy days and feast celebrations</p>
 donationContent: |
   <p>Support our parish through donations and community involvement</p>
-  <a href="https://www.canadahelps.org/en/charities/ukrainian-catholic-holy-ghost-church/" class="btn btn-warning">Donate Online</a>
+  <a href="https://www.canadahelps.org/en/charities/ukrainian-catholic-holy-ghost-church/" class="btn btn-dark">Donate Online</a>
 permalink: /en/
 ---
 
@@ -72,5 +69,5 @@ Holy Ghost parish strives to be an inclusive and welcoming church home for our p
 O Mary, you shine continuously on our journey as a sign of salvation and hope.
 We entrust ourselves to you, Health of the Sick. At the foot of the Cross you participated in Jesus' pain, with steadfast faith. You, Salvation of the human race, know what we need.
 We are certain that you will provide, so that, as you did at Cana of Galilee, joy and feasting might return after this moment of trial.
-Help us, Mother of Divine Love, to conform ourselves to the Father’s will and to do what Jesus tells us. He who took our sufferings upon Himself and bore our sorrows to bring us through the Cross, to the joy of Resurrection.
+Help us, Mother of Divine Love, to conform ourselves to the Father's will and to do what Jesus tells us. He who took our sufferings upon Himself and bore our sorrows to bring us through the Cross, to the joy of Resurrection.
 We seek refuge under your protection, O holy Mother of God. Do not despise pur pleas – we who are put to the test – and deliver us from every danger, O glorious and blessed Virgin. Amen.

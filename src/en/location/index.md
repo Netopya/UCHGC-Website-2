@@ -92,7 +92,7 @@ permalink: /en/location/
                     <div class="col-md-6">
                         <h5>Public Transit</h5>
                         <ul>
-                            <li><strong>Metro:</strong> Charlevoix (Orange Line)</li>
+                            <li><strong>Metro:</strong> Charlevoix (Green Line)</li>
                             <li><strong>Bus:</strong> Multiple routes serve the area</li>
                             <li>Walking distance from metro station: ~10 minutes</li>
                         </ul>
@@ -100,9 +100,9 @@ permalink: /en/location/
                     <div class="col-md-6">
                         <h5>Parking</h5>
                         <ul>
-                            <li>Limited street parking available</li>
+                            <li>Small parking lot reserved for church visitors</li>
+                            <li>Limited street parking also available</li>
                             <li>Please respect neighborhood parking rules</li>
-                            <li>Public transit recommended for Sunday services</li>
                         </ul>
                     </div>
                 </div>

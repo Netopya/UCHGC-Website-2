@@ -3,12 +3,9 @@ layout: home.njk
 lang: fr
 title: Accueil
 indexTitle: "Église catholique ukrainienne Saint-Esprit à Montréal"
-scheduleContent: |
-  <p class="lead">Rejoignez-nous pour la Divine Liturgie tous les dimanches à 10h00</p>
-  <p>Services spéciaux pendant les jours saints et les célébrations de fêtes</p>
 donationContent: |
   <p>Soutenez notre paroisse par des dons et l'implication communautaire</p>
-  <a href="https://www.canadahelps.org/fr/organismesdebienfaisance/ukrainian-catholic-holy-ghost-church/" class="btn btn-warning">Faire un don en ligne</a>
+  <a href="https://www.canadahelps.org/fr/organismesdebienfaisance/ukrainian-catholic-holy-ghost-church/" class="btn btn-dark">Faire un don en ligne</a>
 permalink: /fr/
 ---
 
@@ -73,5 +70,5 @@ La paroisse Saint Esprit s'efforce d'être une église inclusive et accueillante
 O Mary, you shine continuously on our journey as a sign of salvation and hope.
 We entrust ourselves to you, Health of the Sick. At the foot of the Cross you participated in Jesus' pain, with steadfast faith. You, Salvation of the human race, know what we need.
 We are certain that you will provide, so that, as you did at Cana of Galilee, joy and feasting might return after this moment of trial.
-Help us, Mother of Divine Love, to conform ourselves to the Father’s will and to do what Jesus tells us. He who took our sufferings upon Himself and bore our sorrows to bring us through the Cross, to the joy of Resurrection.
+Help us, Mother of Divine Love, to conform ourselves to the Father's will and to do what Jesus tells us. He who took our sufferings upon Himself and bore our sorrows to bring us through the Cross, to the joy of Resurrection.
 We seek refuge under your protection, O holy Mother of God. Do not despise pur pleas – we who are put to the test – and deliver us from every danger, O glorious and blessed Virgin. Amen.

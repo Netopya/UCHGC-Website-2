@@ -9,7 +9,7 @@ permalink: /fr/contact/
 <div class="row">
     <div class="col-md-4 mb-4">
         <div class="text-center">
-            <img src="/images/thb_V_Vitt.jpg" alt="Père Volodymyr Vitt" class="img-thumbnail mb-3" style="max-width: 200px;">
+            <img src="{{ '/images/thb_V_Vitt.jpg' | url }}" alt="Père Volodymyr Vitt" class="img-thumbnail mb-3" style="max-width: 200px;">
         </div>
     </div>
     <div class="col-md-8">
@@ -86,18 +86,7 @@ permalink: /fr/contact/
                     Horaire des services
                 </h4>
                 <div class="schedule-info">
-                    <p class="mb-2">
-                        <strong>Divine Liturgie dominicale:</strong>
-                    </p>
-                    <ul class="mb-0">
-                        <li>Premier dimanche du mois: 11h00</li>
-                        <li>Autres dimanches: 9h00</li>
-                    </ul>
-                    <p class="mt-3 mb-0">
-                        <small class="text-muted">
-                            <em>Services spéciaux pendant les jours saints et les célébrations de fêtes. Veuillez appeler pour les heures spécifiques.</em>
-                        </small>
-                    </p>
+                    {{ lang | dynamicSchedule | safe }}
                 </div>
             </div>
         </div>

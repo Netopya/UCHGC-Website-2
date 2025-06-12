@@ -32,7 +32,7 @@ module.exports = {
       mailingAddress: "Mailing Address"
     },
     footer: {
-      address: "1795 Rue Grand Trunk, Montréal, QC H3K 2J5",
+      address: "1795 Rue Grand Trunk, Montréal, QC H3K 1M1",
       copyright: "© 2024 Ukrainian Catholic Holy Ghost Church"
     }
   },
@@ -69,7 +69,7 @@ module.exports = {
       mailingAddress: "Adresse postale"
     },
     footer: {
-      address: "1795 Rue Grand Trunk, Montréal, QC H3K 2J5",
+      address: "1795 Rue Grand Trunk, Montréal, QC H3K 1M1",
       copyright: "© 2024 L'église catholique ukrainienne Saint-Esprit"
     }
   },
@@ -106,7 +106,7 @@ module.exports = {
       mailingAddress: "Поштова адреса"
     },
     footer: {
-      address: "1795 Rue Grand Trunk, Montréal, QC H3K 2J5",
+      address: "1795 Rue Grand Trunk, Montréal, QC H3K 1M1",
       copyright: "© 2024 Українська католицька Церква Святого Духа"
     }
   }

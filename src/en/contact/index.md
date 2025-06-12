@@ -9,7 +9,7 @@ permalink: /en/contact/
 <div class="row">
     <div class="col-md-4 mb-4">
         <div class="text-center">
-            <img src="/images/thb_V_Vitt.jpg" alt="Fr. Volodymyr Vitt" class="img-thumbnail mb-3" style="max-width: 200px;">
+            <img src="{{ '/images/thb_V_Vitt.jpg' | url }}" alt="Fr. Volodymyr Vitt" class="img-thumbnail mb-3" style="max-width: 200px;">
         </div>
     </div>
     <div class="col-md-8">
@@ -86,18 +86,7 @@ permalink: /en/contact/
                     Service Schedule
                 </h4>
                 <div class="schedule-info">
-                    <p class="mb-2">
-                        <strong>Sunday Divine Liturgy:</strong>
-                    </p>
-                    <ul class="mb-0">
-                        <li>First Sunday of the month: 11:00 AM</li>
-                        <li>Other Sundays: 9:00 AM</li>
-                    </ul>
-                    <p class="mt-3 mb-0">
-                        <small class="text-muted">
-                            <em>Special services during holy days and feast celebrations. Please call for specific times.</em>
-                        </small>
-                    </p>
+                    {{ lang | dynamicSchedule | safe }}
                 </div>
             </div>
         </div>

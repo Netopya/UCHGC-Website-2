@@ -9,7 +9,7 @@ permalink: /uk/contact/
 <div class="row">
     <div class="col-md-4 mb-4">
         <div class="text-center">
-            <img src="/images/thb_V_Vitt.jpg" alt="Парох о.Володимир Вітт" class="img-thumbnail mb-3" style="max-width: 200px;">
+            <img src="{{ '/images/thb_V_Vitt.jpg' | url }}" alt="Парох о.Володимир Вітт" class="img-thumbnail mb-3" style="max-width: 200px;">
         </div>
     </div>
     <div class="col-md-8">
@@ -86,18 +86,7 @@ permalink: /uk/contact/
                     Розклад богослужінь
                 </h4>
                 <div class="schedule-info">
-                    <p class="mb-2">
-                        <strong>Недільна Божественна Літургія:</strong>
-                    </p>
-                    <ul class="mb-0">
-                        <li>Перша неділя місяця: 11:00</li>
-                        <li>Інші неділі: 9:00</li>
-                    </ul>
-                    <p class="mt-3 mb-0">
-                        <small class="text-muted">
-                            <em>Спеціальні служби під час святих днів та святкових урочистостей. Будь ласка, телефонуйте для уточнення часу.</em>
-                        </small>
-                    </p>
+                    {{ lang | dynamicSchedule | safe }}
                 </div>
             </div>
         </div>

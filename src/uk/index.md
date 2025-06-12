@@ -3,12 +3,9 @@ layout: home.njk
 lang: uk
 title: Головна
 indexTitle: "Українська католицька Церква Святого Духа в Монреалі"
-scheduleContent: |
-  <p class="lead">Долучайтесь до нас на Божественну Літургію щонеділі о 10:00</p>
-  <p>Спеціальні служби під час святих днів та свят</p>
 donationContent: |
   <p>Підтримайте нашу парафію через пожертви та громадську участь</p>
-  <a href="https://www.canadahelps.org/en/charities/ukrainian-catholic-holy-ghost-church/" class="btn btn-warning">Пожертвувати онлайн</a>
+  <a href="https://www.canadahelps.org/en/charities/ukrainian-catholic-holy-ghost-church/" class="btn btn-dark">Пожертвувати онлайн</a>
 permalink: /uk/
 ---
 

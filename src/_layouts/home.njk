@@ -50,7 +50,7 @@ layout: base.njk
                 <div class="card-body text-center">
                     <h2 class="card-title">{{ translations[lang].home.scheduleTitle }}</h2>
                     <div class="schedule-content">
-                        {{ scheduleContent | safe }}
+                        {{ lang | dynamicSchedule | safe }}
                     </div>
                 </div>
             </div>
