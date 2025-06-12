@@ -45,15 +45,27 @@ Holy Ghost parish strives to be an inclusive and welcoming church home for our p
 
 ### The Order of Prayer of the Domestic Church on Ascension
 
-[МОЛИТОВНИЙ ЧИН ДОМАШНЬОЇ ЦЕРКВИ НА ВОЗНЕСІННЯ.pdf]()
+<div class="mt-3 mb-4">
+<a href="{{ '/documents/МОЛИТОВНИЙ ЧИН ДОМАШНЬОЇ ЦЕРКВИ НА ВОЗНЕСІННЯ.pdf' | url }}" class="btn btn-outline-primary">
+  <i class="bi bi-file-earmark-pdf me-2"></i>МОЛИТОВНИЙ ЧИН ДОМАШНЬОЇ ЦЕРКВИ НА ВОЗНЕСІННЯ.pdf
+</a>
+</div>
 
 ### The Order of Prayer of the Domestic Church: A Prayer to Christ the Saviour
 
-[2020 Order of Prayer A MOLEBEN TO CHRIST THE SAVIOUR.pdf]()
+<div class="mt-3 mb-4">
+<a href="{{ '/documents/2020 Order of Prayer A MOLEBEN TO CHRIST THE SAVIOUR.pdf' | url }}" class="btn btn-outline-primary">
+  <i class="bi bi-file-earmark-pdf me-2"></i>2020 Order of Prayer A MOLEBEN TO CHRIST THE SAVIOUR.pdf
+</a>
+</div>
 
 ### The Order of Prayer of the Domestic Church: The Third Hour on Pentecost Sunday
 
-[2020 Order of Prayer of the Domestic Church - THE THIRD HOUR ON PENTECOST SUNDAY.pdf]()
+<div class="mt-3 mb-4">
+<a href="{{ '/documents/2020 Order of Prayer of the Domestic Church - THE THIRD HOUR ON PENTECOST SUNDAY.pdf' | url }}" class="btn btn-outline-primary">
+  <i class="bi bi-file-earmark-pdf me-2"></i>2020 Order of Prayer of the Domestic Church - THE THIRD HOUR ON PENTECOST SUNDAY.pdf
+</a>
+</div>
 
 ### Prayer of Pope Francis
 
