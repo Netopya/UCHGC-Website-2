@@ -64,7 +64,7 @@
                 </ul>
                 
                 <!-- Language Switcher -->
-                {% set path = page.url[3:] %}
+                {% set path = page.url | slice(3) %}
                 {% if not path or path == '/' %}
                     {% set path = '/' %}
                 {% endif %}
