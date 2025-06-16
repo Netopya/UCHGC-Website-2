@@ -25,13 +25,6 @@ module.exports = function(eleventyConfig) {
   
   // Language navigation filter
   eleventyConfig.addFilter("langUrl", function(url, lang, currentLang) {
-    // Handle path prefix properly
-    const pathPrefix = "/UCHGC-Website-2";
-    
-    // If URL already has path prefix, replace the language part
-    if (url.startsWith(pathPrefix)) {
-      return url.replace(`${pathPrefix}/${currentLang}/`, `${pathPrefix}/${lang}/`);
-    }
     
     // If URL doesn't have path prefix, add it and construct the new URL
     if (url.startsWith(`/${currentLang}/`)) {
@@ -101,6 +94,5 @@ module.exports = function(eleventyConfig) {
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
-    pathPrefix: "/UCHGC-Website-2/"
   };
 }; 
