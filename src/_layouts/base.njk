@@ -70,9 +70,9 @@
                         {{ translations[lang].languages[lang] }}
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{ page.url | langUrl('en', lang) }}">{{ translations[lang].languages.en }}</a></li>
-                        <li><a class="dropdown-item" href="{{ page.url | langUrl('fr', lang) }}">{{ translations[lang].languages.fr }}</a></li>
-                        <li><a class="dropdown-item" href="{{ page.url | langUrl('uk', lang) }}">{{ translations[lang].languages.uk }}</a></li>
+                        <li><a class="dropdown-item" href="/en{{ page.url | replace('^/[a-z][a-z]', '') }}">{{ translations[lang].languages.en }}</a></li>
+                        <li><a class="dropdown-item" href="/fr{{ page.url | replace('^/[a-z][a-z]', '') }}">{{ translations[lang].languages.fr }}</a></li>
+                        <li><a class="dropdown-item" href="/uk{{ page.url | replace('^/[a-z][a-z]', '') }}">{{ translations[lang].languages.uk }}</a></li>
                     </ul>
                 </div>
             </div>

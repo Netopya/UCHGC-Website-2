@@ -23,18 +23,6 @@ module.exports = function(eleventyConfig) {
     return collectionApi.getFilteredByGlob("src/uk/posts/*.md");
   });
   
-  // Language navigation filter
-  eleventyConfig.addFilter("langUrl", function(url, lang, currentLang) {
-    
-    // If URL doesn't have path prefix, add it and construct the new URL
-    if (url.startsWith(`/${currentLang}/`)) {
-      return `${pathPrefix}${url.replace(`/${currentLang}/`, `/${lang}/`)}`;
-    }
-    
-    // Fallback: construct URL from scratch
-    return `${pathPrefix}/${lang}/`;
-  });
-  
   // Dynamic schedule filter
   eleventyConfig.addFilter("dynamicSchedule", function(lang) {
     const now = new Date();
@@ -93,6 +81,6 @@ module.exports = function(eleventyConfig) {
     templateFormats: ["md", "njk", "html"],
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
-    dataTemplateEngine: "njk",
+    dataTemplateEngine: "njk"
   };
 }; 
