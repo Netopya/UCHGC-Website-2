@@ -64,16 +64,19 @@
                 </ul>
                 
                 <!-- Language Switcher -->
-                {% set path = page.url | replace('^/[a-z][a-z](/|$)', '/') %}
+                {% set path = page.url[3:] %}
+                {% if not path or path == '/' %}
+                    {% set path = '/' %}
+                {% endif %}
                 <div class="dropdown">
                     <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown">
                         <i class="bi bi-globe me-1"></i>
                         {{ translations[lang].languages[lang] }}
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/en{{ path == '/' ? '/' : path }}">{{ translations[lang].languages.en }}</a></li>
-                        <li><a class="dropdown-item" href="/fr{{ path == '/' ? '/' : path }}">{{ translations[lang].languages.fr }}</a></li>
-                        <li><a class="dropdown-item" href="/uk{{ path == '/' ? '/' : path }}">{{ translations[lang].languages.uk }}</a></li>
+                        <li><a class="dropdown-item" href="/en{{ path }}">{{ translations[lang].languages.en }}</a></li>
+                        <li><a class="dropdown-item" href="/fr{{ path }}">{{ translations[lang].languages.fr }}</a></li>
+                        <li><a class="dropdown-item" href="/uk{{ path }}">{{ translations[lang].languages.uk }}</a></li>
                     </ul>
                 </div>
             </div>
