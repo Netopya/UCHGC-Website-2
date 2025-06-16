@@ -64,15 +64,16 @@
                 </ul>
                 
                 <!-- Language Switcher -->
+                {% set path = page.url | replace('^/[a-z][a-z](/|$)', '/') %}
                 <div class="dropdown">
                     <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown">
                         <i class="bi bi-globe me-1"></i>
                         {{ translations[lang].languages[lang] }}
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/en{{ page.url | replace('^/[a-z][a-z]', '') }}">{{ translations[lang].languages.en }}</a></li>
-                        <li><a class="dropdown-item" href="/fr{{ page.url | replace('^/[a-z][a-z]', '') }}">{{ translations[lang].languages.fr }}</a></li>
-                        <li><a class="dropdown-item" href="/uk{{ page.url | replace('^/[a-z][a-z]', '') }}">{{ translations[lang].languages.uk }}</a></li>
+                        <li><a class="dropdown-item" href="/en{{ path == '/' ? '/' : path }}">{{ translations[lang].languages.en }}</a></li>
+                        <li><a class="dropdown-item" href="/fr{{ path == '/' ? '/' : path }}">{{ translations[lang].languages.fr }}</a></li>
+                        <li><a class="dropdown-item" href="/uk{{ path == '/' ? '/' : path }}">{{ translations[lang].languages.uk }}</a></li>
                     </ul>
                 </div>
             </div>
