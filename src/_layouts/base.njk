@@ -64,7 +64,8 @@
                 </ul>
                 
                 <!-- Language Switcher -->
-                {% set path = page.url | slice(3) %}
+                {% set langPrefix = '/' + lang + '/' %}
+                {% set path = page.url | replace(langPrefix, '/') %}
                 {% if not path or path == '/' %}
                     {% set path = '/' %}
                 {% endif %}
