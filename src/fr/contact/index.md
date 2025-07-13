@@ -92,3 +92,19 @@ permalink: /fr/contact/
         </div>
     </div>
 </div> 
+
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">
+                    <i class="bi bi-shield-check me-2"></i>
+                    La Politique de Sauvegarde Éparchiale
+                </h4>
+                <div class="mb-0">
+                    La Politique de Sauvegarde Éparchiale de l'Éparchie Ukrainienne Catholique de Toronto et de l'Est du Canada est conçue pour garantir que toutes les allégations d'abus physiques et sexuels et d'autres inconduites soient traitées de manière responsable, transparente et avec tout le soin et l'attention nécessaires. Pour parler à quelqu'un d'une préoccupation, veuillez contacter votre Curé/Administrateur, Coordinateur/Coordinatrice Paroissiale des Soins f. Volodymyr Vitt: <a href="tel:514-769-3804">514-769-3804</a>, ou Natalka Haras: <a href="tel:514-378-7831">514 378-7831</a>, ou Coordinatrice Éparchiale des Soins, Annette Hrywna, par courriel: <a href="mailto:safeguarding@ucetec.org">safeguarding@ucetec.org</a>. Plus d'informations sont disponibles sur le site web de l'Éparchie: <a href="https://ucet.ca/safeguarding/">https://ucet.ca/safeguarding/</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
