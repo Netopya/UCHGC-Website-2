@@ -31,10 +31,15 @@ permalink: /uk/contact/
                         <strong>{{ translations[lang].contact.email }}:</strong> 
                         <a href="mailto:v.vitt@hotmail.com">v.vitt@hotmail.com</a>
                     </p>
-                    <p class="mb-0">
+                    <p class="mb-2">
                         <i class="bi bi-building me-2"></i>
                         <strong>{{ translations[lang].contact.administration }}:</strong> 
                         <a href="tel:+15149359732">514-935-9732</a>
+                    </p>
+                    <p class="mb-0">
+                        <i class="bi bi-envelope me-2"></i>
+                        <strong>{{ translations[lang].contact.administrativeEmail }}:</strong> 
+                        <a href="mailto:uchgc.montreal@hotmail.com">uchgc.montreal@hotmail.com</a>
                     </p>
                 </div>
             </div>

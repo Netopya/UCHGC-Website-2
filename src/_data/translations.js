@@ -29,6 +29,7 @@ module.exports = {
       telephone: "Telephone",
       email: "E-mail",
       administration: "Administration",
+      administrativeEmail: "Administrative email",
       mailingAddress: "Mailing Address"
     },
     footer: {
@@ -66,6 +67,7 @@ module.exports = {
       telephone: "Téléphone",
       email: "Courriel",
       administration: "Administration",
+      administrativeEmail: "Courriel administratif",
       mailingAddress: "Adresse postale"
     },
     footer: {
@@ -103,6 +105,7 @@ module.exports = {
       telephone: "Телефон",
       email: "E-mail",
       administration: "Адміністрація",
+      administrativeEmail: "Адміністративна е-пошта",
       mailingAddress: "Поштова адреса"
     },
     footer: {
